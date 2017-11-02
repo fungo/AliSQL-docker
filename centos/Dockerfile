@@ -32,7 +32,7 @@ RUN set -x \
         && yum clean all \
         && mv /etc/yum.repos.d/CentOS-Base.repo.backup /etc/yum.repos.d/CentOS-Base.repo
 
-ENV ALISQL_VERSION 5.6.32-6
+ENV ALISQL_VERSION 5.6.32-7
 
 RUN set -x \
         && mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup \

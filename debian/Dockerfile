@@ -35,7 +35,7 @@ RUN set -x \
         && rm -rf /var/lib/apt/lists/* \
         && sed -i 's/mirrors.aliyun.com/deb.debian.org/g' /etc/apt/sources.list
 
-ENV ALISQL_VERSION 5.6.32-6
+ENV ALISQL_VERSION 5.6.32-7
 
 RUN set -x \
         && sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
